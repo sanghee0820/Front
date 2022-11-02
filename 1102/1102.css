@@ -1,0 +1,32 @@
+
+/* 
+    애스터리스크 '*'
+    문서내 모든 요소
+*/
+
+h1{
+    color: blue;
+    /* 
+        태그 선택자  ex) h1 태그를 가진걸 모두 blue로 한다.
+     */
+
+    /* 
+        그룹 선택자 쉼표로구분.  h1, p, h2등..
+    */
+}
+.text{
+    color : blue;
+    font-size: 30px;
+    /*
+       클래스 선택자 . + Class이름
+
+     */
+}
+#topic{
+    color : blue;
+    font-size:  30px;
+    /* 
+        아이디 선택자 주어진 id속성값
+        아이디가 topic인 글자색을 파란색으로
+     */
+}
